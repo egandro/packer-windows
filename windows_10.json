@@ -15,7 +15,8 @@
         "./scripts/enable-winrm.ps1",
         "./scripts/microsoft-updates.bat",
         "./scripts/win-updates.ps1",
-        "./scripts/enable-winrm.bat"
+        "./scripts/enable-winrm.bat",
+        "./scripts/rsync.bat"
       ],
       "guest_additions_mode": "none",
       "iso_checksum": "{{user `iso_checksum`}}",
@@ -48,7 +49,8 @@
         "./scripts/enable-winrm.ps1",
         "./scripts/microsoft-updates.bat",
         "./scripts/win-updates.ps1",
-        "./scripts/enable-winrm.bat"
+        "./scripts/enable-winrm.bat",
+        "./scripts/rsync.bat"
       ],
       "guest_os_type": "windows9-64",
       "headless": "{{user `headless`}}",
@@ -87,7 +89,8 @@
         "./scripts/enable-winrm.ps1",
         "./scripts/microsoft-updates.bat",
         "./scripts/win-updates.ps1",
-        "./scripts/enable-winrm.bat"
+        "./scripts/enable-winrm.bat",
+        "./scripts/rsync.bat"
       ],
       "guest_additions_mode": "disable",
       "guest_os_type": "Windows10_64",
@@ -119,7 +122,8 @@
       "scripts": [
         "./scripts/vm-guest-tools.bat",
         "./scripts/enable-rdp.bat",
-        "./scripts/enable-winrm.bat"
+        "./scripts/enable-winrm.bat",
+        "./scripts/rsync.bat"
       ],
       "type": "windows-shell"
     },
