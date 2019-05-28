@@ -154,7 +154,7 @@
         "./scripts/enable-winrm.ps1"
       ],
       "type": "powershell"
-    },
+    }
   ],
   "variables": {
     "autounattend": "./answer_files/10/Autounattend.xml",
